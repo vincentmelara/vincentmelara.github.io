@@ -1,0 +1,156 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.navbar {
+    background:#000000;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #4287f5;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('https://eitrawmaterials.eu/wp-content/uploads/2019/10/KAVA7.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: whitesmoke;
+}
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.description button {
+    border:1px solid black;
+    background:black;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+.features .btn {
+    background-color: black;
+    border: 1px solid black;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    border: 1px solid black;
+    background-color: #4287f5;
+
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #667;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* media queries */
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
+
+  /* logo hover effect */
+  .navbar .navbar-brand a{
+    padding-top: 5px;
+    border: 3px solid white;
+    transform: scale(1.2);
+    transition: 1.0s;
+}
+
+.favpictures h1 {
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.resume a{
+    padding-left: 10.5em;
+    padding-bottom: 1.3em;
+}
+
+.row {
+    display: inline;
+    margin: auto;
+}
