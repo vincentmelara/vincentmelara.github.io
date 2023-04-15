@@ -138,3 +138,23 @@ body {
 .favpictures h1 {
     text-align: center;
 }
+.favpictures h3 {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.aboutbox p {
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 2px 2px 2px 2px;
+}
+
+.row h3{
+    transition: text-shadow .5s;
+}
+
+.row h3:hover{
+    text-shadow: 2px 2px 8px #4287f5;
+
+}
