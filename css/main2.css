@@ -195,7 +195,7 @@ body {
     margin: auto;
 }
 
-/* hover zoom and greyscale --> color feature for github and resume links */
+/* hover zoom for github and resume links */
 .zoom img{
     padding: 50px;
     transition: transform .4s; /* Animation */
@@ -225,11 +225,14 @@ body {
     filter: none;
     transition: 1s ease;
 
-    box-shadow: 0 0 0 5px #000000;
+    box-shadow: 0 0 0 3px #000000;
     transition: .5s ease;
 
     transition: 1s ease;
 
+  }
+  .programming {
+    align-items:center;
   }
 
   .programming img {
@@ -247,6 +250,12 @@ body {
     padding-bottom: 5px;
   }
   .projcontainer {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+
     flex-direction: column;
     width: 100vw;
     border: 2px solid black;
@@ -264,7 +273,9 @@ box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
     flex-direction: row;
     width: 100%;
     align-items: center;
-    float: center;
+  }
+  .projimg img{
+    margin:auto;
   }
   .projp p{
     padding: 5px 5px 5px 5px;

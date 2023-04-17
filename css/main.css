@@ -20,10 +20,30 @@ body {
 .nav-link:hover {
     color: #4287f5;
 }
+.nav-item li a:active {
+    color: purple;
+}
 .navbar-collapse {
     justify-content: flex-end;
 }
 
+.background2 .header {
+    background-image: url('https://st4.depositphotos.com/21389766/23112/i/450/depositphotos_231122574-stock-photo-contact-contact-write-email-support.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    
+}
+
+.background2 .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
 .header {
     background-image: url('https://t3.ftcdn.net/jpg/03/02/72/92/360_F_302729232_ZjL6IwgarR3ZUcmu6SUtFEzFvTWfhVH7.jpg');
     background-size: cover;
@@ -91,6 +111,18 @@ body {
     background-color: #4287f5;
 
 }
+.formcontainer {
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.socialstitle {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-width: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 .page-footer {
     background-color: #222;
@@ -153,6 +185,7 @@ body {
 .row h3{
     transition: text-shadow .5s;
 }
+
 
 .row h3:hover{
     text-shadow: 2px 2px 8px #4287f5;
