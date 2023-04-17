@@ -174,3 +174,7 @@ body {
 .row h3:hover{
     text-shadow: 2px 2px 8px #4287f5;
 }
+
+.row .socialimg a {
+    padding-bottom: 10px;
+}
