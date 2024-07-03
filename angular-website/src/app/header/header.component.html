@@ -1,0 +1,12 @@
+<div class="header p-shadow-2">
+  <div class="p-grid p-align-center p-justify-between">
+    <div class="p-col">
+      <h1>My Portfolio</h1>
+    </div>
+    <div class="p-col-auto">
+      <p-button *ngFor="let button of buttons" 
+                label="{{button.label}}" 
+                (onClick)="navigateTo(button.route)"></p-button>
+    </div>
+  </div>
+</div>
