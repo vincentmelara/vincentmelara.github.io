@@ -17,9 +17,10 @@
     "@types/three": "0.152.1",
     "framer-motion": "^11.11.10",
     "framer-motion-3d": "^11.11.10",
+    "leva": "^0.9.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "three": "0.153.0"
+    "three": "^0.153.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
